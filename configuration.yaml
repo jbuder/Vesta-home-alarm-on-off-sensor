@@ -1,0 +1,67 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 55.4167
+  longitude: 13.8167
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Stockholm
+
+# Show links to resources in log and frontend
+# introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+mqtt:
+  broker: 192.168.1.140
+  port: 1883
+  client_id: frejadal
+  username: XXXXXX
+  password: XXXXXX
+
+
+# Checks for available updates
+# updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Weather Prediction
+sensor:
+  - platform: yr
+
+
+binary_sensor:
+  - platform: mqtt
+    name: Alarm
+    state_topic: "alarm/home"
+    payload_on: "1_alarm_on"
+    payload_off: "0_alarm_off"
+   
+
+
+# Text to speech
+tts:
+  platform: google
+
+group: !include groups.yaml
