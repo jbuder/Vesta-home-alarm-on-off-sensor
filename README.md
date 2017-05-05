@@ -21,7 +21,7 @@ CTC-1923S
 VST-1923
 
 
-![Screenshot](screenshot.png)
+![Screenshot](1923S.jpg)
 
 
 ##Credits
