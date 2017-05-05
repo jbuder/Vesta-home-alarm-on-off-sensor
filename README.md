@@ -11,6 +11,7 @@ Setup your Home Assistant configuration file with the sensor and MQTT server.
 Connect the Ground and D3 of the Wemos to the relay output connector on the back of the alarm panel.
 If you want visual indication connect common catode RGB LED to Wemos D0=red ,D5=green.
 
+Or just use this with an magnetic switch on a door/window....
 
 Have fun...
 
@@ -25,14 +26,14 @@ Diffrent name on the same Alarm Panel is:
 
 
 ##Credits
-ElectronHacks/MQTT_ESP8266_Garage_Door
+ - ElectronHacks/MQTT_ESP8266_Garage_Door
 
 
 
 Library#
 
-#include <ESP8266WiFi.h>
-#include <PubSubClient.h>
+ - #include <ESP8266WiFi.h>
+ - #include <PubSubClient.h>
 
 
 
