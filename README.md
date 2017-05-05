@@ -14,5 +14,23 @@ If you want visual indication connect common catode RGB LED to Wemos D0=red ,D5=
 
 Have fun...
 
+Diffrent name on the same Alarm Panel is:
+
+C-Fence family 1923S
+CTC-1923S
+VST-1923
+
+##Credits
+ElectronHacks/MQTT_ESP8266_Garage_Door
+
+
+Library#
+
+#include <ESP8266WiFi.h>
+#include <PubSubClient.h>
+
+
+
+##Developed By: Jimmy Buder
 
 
