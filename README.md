@@ -20,6 +20,10 @@ C-Fence family 1923S
 CTC-1923S
 VST-1923
 
+
+![Screenshot](screenshot.png)
+
+
 ##Credits
 ElectronHacks/MQTT_ESP8266_Garage_Door
 
