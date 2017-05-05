@@ -16,9 +16,9 @@ Have fun...
 
 Diffrent name on the same Alarm Panel is:
 
-C-Fence family 1923S
-CTC-1923S
-VST-1923
+ - C-Fence family 1923S
+ - CTC-1923S
+ - VST-1923
 
 
 ![Screenshot](1923S.jpg)
